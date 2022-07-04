@@ -46,7 +46,7 @@
         }
     }
     &-item {
-        width: 300px;
+        width: 252px;
         min-height: 440px;
         border: 2px solid #e8e8e8;
         padding: 20px 20px 26px 20px;
@@ -68,7 +68,7 @@
         &__descr {
             margin-top: 16px;
             color: #0d0d0d;
-            font-size: 14px;
+            font-size: 12px;
             font-weight: 300;
             text-align: center;
         }
@@ -133,7 +133,7 @@
             list-style-type: none;
             &_active {
                 transform: translateX(-100%);
-                margin-left: 0px;
+                margin-left: 30px;
             }
             li {
                 position: relative;
