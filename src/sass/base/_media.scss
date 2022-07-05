@@ -1,0 +1,16 @@
+@media (max-width: 881px) {
+    .carousel {
+        &__inner {
+            width: 600px;
+            &-first {
+                width: 620px;
+            }
+            &-second {
+                width: 620px;
+            }
+            &-third {
+                width: 598px;
+            }
+        }
+    }
+}
