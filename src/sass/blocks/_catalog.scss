@@ -109,7 +109,7 @@
         }
         &__wrapper {
             display: flex;
-            width: calc(200% + 40px);
+            width: calc(200% + 70px);
         }
         &__content {
             width: 50%;
@@ -130,10 +130,9 @@
             transition: 0.5s all;
             padding-left: 19px;
             margin-bottom: 0;
-            list-style-type: none;
             &_active {
                 transform: translateX(-100%);
-                margin-left: 0px;
+                margin-left: -40px;
             }
             li {
                 position: relative;
@@ -141,6 +140,7 @@
                 font-size: 14px;
                 font-weight: 300;
                 margin-bottom: 20px;
+                list-style-type: none;
                 &:before {
                     content: '';
                     position: absolute;
@@ -155,7 +155,7 @@
         &__back {
             position: absolute;
             bottom: 0;
-            left: 50%;
+            left: 62%;
             transform: translateX(calc(-50% - 19px));
             display: block;
             color: $main-color;
